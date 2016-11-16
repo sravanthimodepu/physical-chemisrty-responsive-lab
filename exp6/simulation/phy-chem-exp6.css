@@ -1,19 +1,68 @@
+body{
+	width:1000px; 	
+    height:700px; 
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container{
+    width:1000px; 	
+    height:660px; 
+    position: absolute;
+    border: 1px solid black;
+    border-color: black;
+}
+
+/*h4{  
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}*/
+	
+#apparatus{
+	float:left;
+}	
 #aspirine{
-	top: 50%;
-	left: 10%;
+	position: absolute;
+	top: 100%;
+	left: 5%;
+	
 }
 
 #caffeine{
-	top: 60%;
-	left: 10%;
+	position: absolute;
+	top: 180%;
+	left: 5%;
 }
 
 #sample{
-	top: 30%;
+	position: absolute;
+	top: 40%;
 	left: 30%;
 }
 
 #nuzol{
-	top: 30%;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+}
+
+#motor{
+	position: absolute;
+	top: 140%;
+	left:50%;
+}
+
+#detector{
+	width:400px ; 
+	height:280px; 
+}
+
+#start{
+	left: 10%;
+}
+
+#evaluate{
 	left: 60%;
 }

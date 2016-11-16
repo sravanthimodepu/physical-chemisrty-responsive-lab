@@ -1,30 +1,44 @@
 <html>
 	<head>
 		<title>IR_Powder_exp6</title>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="phy-chem-exp6.css">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    	<script src="libraries/jQueryRotate.js"></script>
 	</head>
 
 	<body>
-		<div class="container">
+		<div class="container " >
 			<div class="row">
-				<div class="col-sm-6">
-					<img id="aspirine" src="images/aspirine.png"> 
-					<img id="caffeine" src="images/caffeine.png"> 
-					<img id="sample" src="images/sample-sol.png">
-					<img id="nuzol" src="images/nuzol-sol.png">
-					<img id="motor" src="images/motor.png">
-				</div>
-				<div class="col-sm-6">
-					
+				<div class="col-sm-6" id="apparatus">
+					<img id="aspirine" src="images/aspirine.png" > 
+					<img id="caffeine" src="images/caffeine.png" > 
+					<img id="sample" src="images/sample-sol.png" >
+					<img id="nuzol" src="images/nuzol-sol.png" >
+					<!-- <img id="motor" src="images/motor.png" > -->
 				</div>
 				<div id="demo"></div>
+				<div class="col-sm-6">
+					<img id="detector"  src="images/detector.png">
+				</div>
+				
 			</div>
+			<br/><br/>
 			<div class="row">
 				<div class="col-sm-6">
 					
+					<center><img src="images/spectroscopy.png" ></center>
+					<br/><br/>
+					<input id="start" type="image" src="images/start.png" >
+					<input id="evaluate" type="image" src="images/evaluate.png" >
 				</div>
 				<div class="col-sm-6">
-					
+				<center>
+					<img id="graph-plot" src="images/graph-plot.png" style="width:400px; height:300px">
+				</center>
 				</div>
 			</div>
 			
